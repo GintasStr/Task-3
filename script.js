@@ -49,7 +49,7 @@ function fillUsersTable(data) {
     usersContainer.append(login, userAvatar);
     usersTable.append(usersContainer);
 
-    // document.getElementById("message").style.display = "none";
+    document.getElementById("message").style.display = "none";
   });
 }
 
